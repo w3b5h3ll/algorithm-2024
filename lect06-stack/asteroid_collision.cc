@@ -94,8 +94,8 @@ int main()
     // vector<int> asteroids = {5, 10, -5}; // 5 10
     // vector<int> asteroids = {8, -8}; // 
     // vector<int> asteroids = {-2, -1, 1, 2}; // -2 -1 1 2
-    vector<int> asteroids = {1, -1, 1, -2}; // -2
-    // vector<int> asteroids = {-2, -2, 1, -2}; // -2 -2 -2
+    // vector<int> asteroids = {1, -1, 1, -2}; // -2
+    vector<int> asteroids = {-2, -2, 1, -2}; // -2 -2 -2
     vector<int> result = Solution().AsteroidCollision(asteroids);
     for (int i = 0; i < result.size(); i++)
     {

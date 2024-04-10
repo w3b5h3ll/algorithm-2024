@@ -15,6 +15,7 @@ public:
     vector<int> AsteroidCollision(vector<int> &asteroids)
     {
         vector<int> st;
+        // vector容器遍历
         for (auto aster : asteroids)
         {
             bool alive = true;
@@ -40,10 +41,10 @@ int main()
 {
 
     // vector<int> asteroids = {10, 2, -5}; // 10
-    // vector<int> asteroids = {5, 10, -5}; // 5 10
+    vector<int> asteroids = {5, 10, -5}; // 5 10
     // vector<int> asteroids = {8, -8}; // 
     // vector<int> asteroids = {-2, -1, 1, 2}; // -2 -1 1 2
-    vector<int> asteroids = {1, -1, 1, -2}; // -2
+    // vector<int> asteroids = {1, -1, 1, -2}; // -2
     // vector<int> asteroids = {-2, -2, 1, -2}; // -2 -2 -2
     vector<int> result = Solution().AsteroidCollision(asteroids);
     for (int i = 0; i < result.size(); i++)
